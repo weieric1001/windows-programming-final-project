@@ -1,0 +1,271 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinalProject
+</name>
+</assembly>
+<members>
+<member name="T:FinalProject.My.Resources.Resources">
+<summary>
+  用於查詢當地語系化字串等的強類型資源類別。
+</summary>
+</member>
+<member name="P:FinalProject.My.Resources.Resources.ResourceManager">
+<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member>
+<member name="P:FinalProject.My.Resources.Resources.Culture">
+<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強類型資源類別的資源查閱。
+</summary>
+</member>
+<member name="P:FinalProject.My.Resources.Resources.backcolor">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:FinalProject.My.Resources.Resources.bus">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:FinalProject.My.Resources.Resources.home">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Sat_SchoolBusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Sun_SchoolBusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekdays_967DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekdays_SchoolBusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekends_967DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Sat_SchoolBusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Sun_SchoolBusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekdays_967Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekdays_SchoolBusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekends_967Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Sat_SchoolBusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Sun_SchoolBusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekdays_967RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekdays_SchoolBusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet.Weekends_967RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.Sat_SchoolBusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.Sun_SchoolBusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.Weekdays_967TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.Weekdays_SchoolBusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.Weekends_967TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalProject.TransportationDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalProject.TransportationDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalProject.TransportationDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalProject.TransportationDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2.Weekends_9671DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2.Weekdays_9671DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2.Weekends_9671Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2.Weekdays_9671Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2.Weekends_9671RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2.Weekdays_9671RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2TableAdapters.Weekends_9671TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2TableAdapters.Weekdays_9671TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalProject.TransportationDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(FinalProject.TransportationDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(FinalProject.TransportationDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.UpdateAll(FinalProject.TransportationDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalProject.TransportationDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
